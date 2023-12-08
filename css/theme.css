@@ -768,10 +768,10 @@ nav.navigation-main .navigation-block ul li > ul li a {
 }
 
 .owl-theme .owl-controls .owl-page {
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .owl-theme .owl-controls .owl-page span {
@@ -779,11 +779,11 @@ nav.navigation-main .navigation-block ul li > ul li a {
 }
 
 .owl-theme .owl-controls .owl-page.active {
-  -moz-transform: scale(1.8);
-  -ms-transform: scale(1.8);
-  -o-transform: scale(1.8);
-  -webkit-transform: scale(1.8);
-  transform: scale(1.8);
+  -moz-transform: scale(00.5s);
+  -ms-transform: scale(00.5s);
+  -o-transform: scale(00.5s);
+  -webkit-transform: scale(00.5s);
+  transform: scale(00.5s);
 }
 
 /*  
@@ -808,7 +808,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(16, 16, 16, 0.5);
+  background-color: rgba(16, 16, 16, 0.2);
 }
 
 .owl-slider-header .item .box {
@@ -841,7 +841,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
 }
 
 .owl-slider-header .item .title {
-  font-size: 32px;
+  font-size: 23px;
   font-family: "Playfair Display", serif;
   color: white;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -865,7 +865,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
     font-size: 16px;
   }
   .owl-slider-header .item .title {
-    font-size: 46px;
+    font-size: 36px;
     text-transform: uppercase;
   }
   .owl-slider-header .item .btn {
@@ -881,7 +881,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
     font-size: 18px;
   }
   .owl-slider-header .item .title {
-    font-size: 48px;
+    font-size: 38px;
   }
 }
 
@@ -1345,7 +1345,7 @@ section {
     top: 3px;
   }
   .section-header p {
-    display: none;
+    display: visible;
   }
 }
 
@@ -3403,7 +3403,7 @@ section {
     color: white;
   }
   .rooms.rooms-inner .section-header .title, .rooms.rooms-inner .section-header .title span {
-    color: #ceb071;
+    color: rgb(245 211 140);
     font-size: 22px;
   }
 }
