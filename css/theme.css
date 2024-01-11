@@ -115,9 +115,9 @@ body b, body strong, body label, body .label {
 body a {
   color: #b58e3e;
 }
-/* body p{
+.aligntext{
   text-align: justify;
-} */
+}
 
 body a:focus, body a:active, body a:hover {
   color: #e744daa6;

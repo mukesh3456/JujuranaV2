@@ -151,7 +151,7 @@
             itemsTabletSmall: true,
             itemsMobile: [479, 1],
             addClassActive: true,
-            autoPlay: 5500,
+            autoPlay: 2000,
             stopOnHover: true
         });
     });
